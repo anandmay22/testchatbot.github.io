@@ -92,9 +92,10 @@
     </main>
 
     <!-- Chatbot Integration -->
-    <script type="module">
+   <flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
+    Chatbot.initFull({
         chatflowid: "f3aacf5f-eecb-4cca-8b21-91d0cc485125",
         apiHost: "http://localhost:3000",
     })
