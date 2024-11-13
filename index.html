@@ -93,11 +93,16 @@
 
     <!-- Chatbot Integration -->
 
+
+      
+
+  
 <script type="module">
   import Chatbot from 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js';
   Chatbot.init({
     chatflowid: 'f3aacf5f-eecb-4cca-8b21-91d0cc485125',
     apiHost: 'http://localhost:3000',
+    
     chatflowConfig: {
       // topK: 2
     },
@@ -147,11 +152,11 @@
         showAgentMessages: true,
         title: 'Flowise Bot',
         titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-        welcomeMessage: 'Hello! This is custom welcome message',
-        errorMessage: 'This is a custom error message',
+        //welcomeMessage: 'Hello! This is custom welcome message',
+        //errorMessage: 'This is a custom error message',
         backgroundColor: '#ffffff',
         backgroundImage: 'enter image path or link', // If set, this will overlap the background color of the chat window.
-        height: 700,
+        height: 70,
         width: 400,
         fontSize: 16,
         starterPrompts: ['What is a bot?', 'Who are you?'], // It overrides the starter prompts set by the chat flow passed
